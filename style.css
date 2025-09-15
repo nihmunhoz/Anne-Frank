@@ -11,7 +11,8 @@ body{
 h1{
     text-align: center;
     font-size: 50px;
-    padding: 50px;
+    padding: 70px;
+    color: rgb(175, 155, 118);
 }
 header{
     display: flex;
@@ -32,29 +33,77 @@ header #intro p{
     width: 50%;
 }
 header #intro img{
-    height: 40vh;
+    height: 300px;
     border-radius: 10px;
 }
 
 main {
     display: flex;
-    text-align: center;
+    justify-content: center;
     align-items: center;
 }
 main #desenvolvimento{
     display: flex;
-    text-align: center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 70px;
 }
 main #desenvolvimento p{
+    width: 80%;
     font-size: 22px;
 }
 main #desenvolvimento img{
-    height: 40%;
-    width: 60%;
+    height: 400px;
+    width: 500px;
     border-radius: 10px;
 }
-#conclusao{
-    border: solid 1px red;
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer #conclusao{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+footer #conclusao p{
+    font-size: 22px;
+}
+footer #conclusao img{
+    height: 400px;
+    width: 360px;
+    border-radius: 10px;
+}
+#list{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgb(175, 155, 118);
+}
+#list h2 li{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 30%;
+    
+}
+#list h2{
+    font-size: 22px;
+    padding: 1%;
+}
+h3{
+    font-size: 24px;
+    padding: 12px;
+    color:rgb(175, 155, 118);
 }
